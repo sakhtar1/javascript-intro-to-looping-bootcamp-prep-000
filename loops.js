@@ -15,9 +15,9 @@ function maybeTrue() {
 }
 
 function whileLoop (n) {
-  let countdown = n;
+  let countdown = 100;
 
-  while (maybeTrue()) {
+  while (maybeTrue(n)) {
     console.log (--countdown)
   }
   return console.log("done")
